@@ -15,4 +15,4 @@ def rndPage():
         exit(0)
     else:
         rndPage()
-rndPage()
+
