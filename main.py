@@ -5,12 +5,12 @@ print(greeting + "\n" + "="*38)
 
 option = {
     1: 'find random wikipedia article',
-    2: 'search product on website',
+    2: 'product search on the website',
 }
 keys = list(option.keys())
 
 for key in option:
-    print(key, '->', option[key])
+    print(key, '->>>', option[key])
 
 while True:
     input_ = input(": ")
