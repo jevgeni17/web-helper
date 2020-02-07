@@ -10,7 +10,7 @@ option = {
 keys = list(option.keys())
 
 for key in option:
-    print(key, '->', option[key])
+    print(key, '->>>', option[key])
 
 while True:
     input_ = input(": ")
